@@ -31,6 +31,18 @@ img {
     width: 100%;
 }
 
+.container {
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #243E63;
+}
+
 .sub--header {
     color: #6415FF;
     font-size: 16px;
@@ -38,7 +50,23 @@ img {
 
 .header {
     color: #243E63;
-    font-size: 36px;
+    font-size: 48px;
+    margin: 16px 0 0;
+}
+
+.learn__button {
+    margin: 48px 0 0;
+    background-color: rgb(100 21 255);
+    padding: 16px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.learn__button:hover {
+    background-color: #243E63;
 }
 
 /* Landing Section */
@@ -111,6 +139,8 @@ img {
     transition: all 200ms ease;
 }
 
+/* Header */
+
 .header__description {
     display: flex;
     flex-direction: column;
@@ -121,11 +151,6 @@ img {
 
 .header__img--wrapper {
     width: 60%;
-}
-
-h1 {
-    font-size: 48px;
-    color: #1A202C;
 }
 
 p {
@@ -172,10 +197,6 @@ form {
 
 /* Features Section */
 
-.container {
-    padding: 80px 0;
-}
-
 .features__description {
     display: flex;
     flex-direction: column;
@@ -184,9 +205,11 @@ form {
 
 .features__para {
     color: #7C8BA1;
-    font-size: 14px;
+    font-size: 18px;
     margin: 16px 0 0;
     text-align: center;
+    padding: 20px 80px 20px 80px;
+    
 }
 
 .services {
@@ -197,7 +220,6 @@ form {
 .service {
     display: flex;
     width: calc(100% / 3);
-    margin: 0 16px;
     padding: 32px 8px;
 }
 
@@ -206,8 +228,9 @@ form {
     flex-direction: column;
 }
 
-.img__container {
-    padding: 20px;
+.service__img--wrapper {
+    padding: 32px;
+    padding-right: 64px;
     border-radius: 50%;
     border-width: 1px;
     height: 8px;
@@ -215,9 +238,9 @@ form {
     margin: 0 auto;
 }
 
-.features__img {
-    width: 24px;
-    height: 24px;
+.service__img {
+    width: 32px;
+    height: 32px;
     position: relative;
 }
 
@@ -228,7 +251,143 @@ form {
 }
 
 .service__para {
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 0 0;
     color: #7C8BA1;
+}
+
+/* Quality Work Section */
+
+.work__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    text-align: left;
+    margin-right: 64px;
+}
+
+.work__img--wrapper {
+    width: 50%;
+    display: flex;
+}
+
+.work__img {
+    width: 100%;
+}
+
+.work__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    margin: 16px 0 0;
+}
+
+/* Steps Section */
+
+.steps__section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    margin-left: 64px;
+}
+
+.step__description {
+    margin: 32px 0 0;
+}
+
+.step__para {
+    margin: 12px 0 0;
+    font-size: 18px;
+    color: #718096;
+}
+
+h6 {
+    color: #CBD5E0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* Values Section */
+
+.values__description {
+    padding-right: 48px;
+}
+
+.values__para,
+.value__para {
+    color: #7C8BA1;
+    font-size: 18px;
+    margin: 16px 0 48px 0;
+}
+
+.values {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    padding: 0 48px 0 0 ;
+}
+
+/* Pricing Section */
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__description--para {
+    color: #7C8BA1;
+    font-size: 18px;
+    margin: 16px 0 0;
+    text-align: center;
+    padding: 20px 80px 20px 80px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #6415FF;
+    padding: 90px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -48px 0 0;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+    margin: 48px 0 0;
+}
+
+.link__header {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+    padding: 0 0 4px;
+    margin: 12px 0 0;
+}
+
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer__copyright {
+    color: white;
 }
