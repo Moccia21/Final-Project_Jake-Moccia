@@ -10,7 +10,8 @@
     <section id="landing">
       <div class="row">
         <nav class="nav">
-          <div class="logo">
+          <div class="logo__container">
+            <img src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="treact__logo" alt="">
             <a href="" class="logo__link logo__link--hover">Treact</a>
           </div>
           <ul class="nav__link--list">
@@ -50,7 +51,10 @@
               modular components with a variety of pages and components.
             </p>
             <form action="">
-              <input type="email" placeholder="Your E-mail Adress" />
+              <div class="input__wrapper">
+                <input type="email" placeholder="Your E-mail Address" />
+                <!-- <button class="started__button">Get Started</button> -->
+              </div>
             </form>
             <p class="logo__strip">OUR TRUSTED CUSTOMERS</p>
             <figure class="logo__strip--img">
@@ -231,27 +235,39 @@
               </h1>
               <ul class="step__descriptions">
                 <li class="step__description">
-                  <h6>01</h6>
-                  <h5 class="subtitle">Register</h5>
-                  <p class="step__para">
-                    Create an account with us using Google or Facebook
-                  </p>
+                  <div class="subtitle__container">
+                    <h6>01</h6>
+                    <div>
+                      <h5 class="subtitle">Register</h5>
+                      <p class="step__para">
+                        Create an account with us using Google or Facebook
+                      </p>
+                    </div>
+                  </div>
                 </li>
                 <li class="step__description">
-                  <h6>02</h6>
-                  <h5 class="subtitle">Download</h5>
-                  <p class="step__para">
-                    Browse and Download the template that you like from the
-                    marketplace
-                  </p>
+                  <div class="subtitle__container">
+                    <h6>02</h6>
+                    <div>
+                    <h5 class="subtitle">Download</h5>
+                    <p class="step__para">
+                      Browse and Download the template that you like from the
+                      marketplace
+                    </p>
+                  </div>
+                  </div>
                 </li>
                 <li class="step__description">
-                  <h6>03</h6>
-                  <h5 class="subtitle">Run</h5>
-                  <p class="step__para">
-                    Follow the instructions to setup and customize the template
-                    to your needs
-                  </p>
+                  <div class="subtitle__container">
+                    <h6>03</h6>
+                    <div>
+                      <h5 class="subtitle">Run</h5>
+                      <p class="step__para">
+                        Follow the instructions to setup and customize the template
+                        to your needs
+                      </p>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -290,7 +306,7 @@
                   <figure>
                     <img src="#" alt="" />
                   </figure>
-                  <h5 class="subtitle">Proffesionalism</h5>
+                  <h5 class="subtitle">Professionalism</h5>
                   <p class="value__para">
                     We assure you that our templates are designed and created by
                     professional designers.
@@ -331,103 +347,104 @@
 
     <section id="footer">
       <div class="row">
-        <div class="links">
+        <div class="footer__links">
           <div class="link">
             <div class="link__header">MAIN</div>
-            <ul>
-              <li>
+            <ul class="links">
+              <li class="link__description">
                 <a href="#" class="footer__link">Blog</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">FAQs</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Support</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">About Us</a>
               </li>
             </ul>
           </div>
           <div class="link">
             <div class="link__header">PRODUCT</div>
-            <ul>
-              <li>
+            <ul class="links">
+              <li class="link__description">
                 <a href="#" class="footer__link">Log In</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Personal</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Business</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Team</a>
               </li>
             </ul>
           </div>
           <div class="link">
             <div class="link__header">PRESS</div>
-            <ul>
-              <li>
+            <ul class="links">
+              <li class="link__description">
                 <a href="#" class="footer__link">Logos</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Events</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Stories</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Office</a>
               </li>
             </ul>
           </div>
           <div class="link">
             <div class="link__header">TEAM</div>
-            <ul>
-              <li>
+            <ul class="links">
+              <li class="link__description">
                 <a href="#" class="footer__link">Career</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Founders</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Culture</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Onboarding</a>
               </li>
             </ul>
           </div>
           <div class="link">
             <div class="link__header">LEGAL</div>
-            <ul>
-              <li>
+            <ul class="links">
+              <li class="link__description">
                 <a href="#" class="footer__link">GDPR</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Privacy Policy</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Terms of Service</a>
               </li>
-              <li>
+              <li class="link__description">
                 <a href="#" class="footer__link">Disclaimer</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="footer__logo">
-          <figure>
-            <img src="#" alt="" />
-          </figure>
-        </div>
-        <div class="footer__info">
-          <p class="footer__copyright">Treact Inc.</p>
-          <p class="footer__copyright">
-            © 2024 Treact Inc. All Rights Reserved.
-          </p>
+          <div class="footer__info">
+            <div class="treact__logo--container">
+              <img src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" class="footer__treact--logo" alt="">
+              <p class="footer__treact">Treact Inc.</p>
+            </div>
+            
+            <p class="footer__copyright">
+              © 2024 Treact Inc. All Rights Reserved.
+            </p>
+          </div>
         </div>
       </div>
     </section>
