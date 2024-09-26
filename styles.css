@@ -10,6 +10,10 @@
 
 html {
     scroll-behavior: smooth;
+} 
+
+body {
+    overflow-x: hidden;
 }
 
 .row {
@@ -78,21 +82,7 @@ img,
     background-color: #243E63;
 }
 
-/* @keyframes animate-page-left {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 100%;
-    }
-} */
-
 /* Landing Section */
-
-/* #landing {
-    transform: translate(100%);
-    transition: 200ms ease;
-} */
 
 .logo__container {
     display: flex;
@@ -661,7 +651,7 @@ h6 {
     visibility: hidden;
     transform: translate(100%);
     margin: 24px 16px;
-    padding: 32px;
+    padding: 32px; 
 }
 
 .menu--open .menu__backdrop {
@@ -671,7 +661,7 @@ h6 {
 }
 
 .menu--open {
-    max-height: 100vh;
+    max-height: 100px;
     overflow: hidden;
 }
 
@@ -762,7 +752,7 @@ h6 {
     }
 
     .values__img {
-        width: 48vh;
+        width: 480px;
         margin-top: 62px;
         margin-bottom: 0;
     }
@@ -791,7 +781,7 @@ h6 {
         align-items: center;
         padding: 0px;
         margin: 0px;
-        width: 64vh;
+        width: 640px;
         
     }
     
@@ -810,7 +800,7 @@ h6 {
     .header__description {
         padding: 0px;
         margin: 0px;
-        width: 64vh;
+        width: 640px;
         text-align: center;
     }
 
@@ -844,7 +834,7 @@ h6 {
 
 @media (max-width: 730px) {
     .header__description {
-        width: 48vh;
+        width: 480px;
     }
 
     .features__description {
@@ -863,11 +853,11 @@ h6 {
     }
 
     .work__description {
-        width: 48vh;
+        width: 480px;
     }
 
     .step__descriptions {
-        width: 48vh;
+        width: 480px;
     }
 
     .pricing__description {
